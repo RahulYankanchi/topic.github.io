@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #1d3557;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #457b9d;
+}
+
+/* Header */
+header {
+    background-color: #457b9d;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 10px 0 0;
+    font-weight: 300;
+}
+
+/* Main Section */
+.team-container {
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 1200px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.team-container h2 {
+    font-size: 2rem;
+    color: #1d3557;
+    margin-bottom: 20px;
+}
+
+.team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.team-member {
+    background-color: #f1faee;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.team-member h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Home Link Section */
+.home-link {
+    margin: 30px auto;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.home-link a {
+    font-weight: bold;
+    color: #e63946;
+    transition: color 0.3s ease;
+}
+
+.home-link a:hover {
+    color: #a8dadc;
+}
