@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f3f4f6;
+    color: #333;
+}
+
+a{
+    text-decoration: none;
+}
+/* Header Styles */
+header {
+    background: linear-gradient(135deg, #4caf50, #81c784);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Main Content Styles */
+main {
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #4caf50;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #81c784;
+    padding-bottom: 5px;
+}
+
+section p, section ul {
+    font-size: 1rem;
+}
+
+section ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.team-member {
+    margin-top: 20px;
+    padding: 15px;
+    border-left: 4px solid #4caf50;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+}
+
+.team-member h3 {
+    color: #388e3c;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 0.9rem;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
