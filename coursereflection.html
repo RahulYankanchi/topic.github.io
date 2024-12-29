@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive Course Reflection</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ffffff 50%, #e6f7ff 50%);
+            color: #333;
+        }
+
+        /* Header Styling */
+        header {
+            background: linear-gradient(90deg, #2c3e50, #3498db);
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        /* Container Styling */
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Section Titles */
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+        }
+
+        /* Subsection Titles */
+        h3 {
+            color: #3498db;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.5rem;
+        }
+
+        /* Paragraph and List Styling */
+        p, ul {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+
+        td {
+            background-color: #f9f9f9;
+        }
+
+        /* Footer Styling */
+        footer {
+            background: linear-gradient(90deg, #2c3e50, #3498db);
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Comprehensive Course Reflection
+</header>
+
+<div class="container">
+    <!-- Graphs Section -->
+    <section>
+        <h2>Graphs</h2>
+        <p>Graphs are powerful data structures consisting of nodes (vertices) and edges. They are widely used to model relationships and networks.</p>
+        <ul>
+            <li><strong>Nodes:</strong> Represent entities or points.</li>
+            <li><strong>Edges:</strong> Represent connections or relationships.</li>
+        </ul>
+    </section>
+
+    <!-- Trees Section -->
+    <section>
+        <h2>Trees</h2>
+        <p>Trees are hierarchical data structures where each node has one parent (except the root) and can have multiple children.</p>
+        <ul>
+            <li><strong>N-ary Tree:</strong> Each node has at most N children.</li>
+            <li><strong>Binary Tree:</strong> Each node has at most two children.</li>
+            <li><strong>Binary Search Tree:</strong> A binary tree where left children are smaller, and right children are larger than the parent.</li>
+            <li><strong>2-3 Tree:</strong> A self-balancing search tree with 2 or 3 child nodes per parent.</li>
+            <li><strong>AVL Tree:</strong> A self-balancing binary tree with height differences of at most 1.</li>
+            <li><strong>Red-Black Tree:</strong> A binary tree that ensures balancing through color rules.</li>
+        </ul>
+    </section>
+
+    <!-- Advanced Data Structures Section -->
+    <section>
+        <h2>Advanced Data Structures</h2>
+        <ul>
+            <li><strong>Tries:</strong> Efficient for prefix-based searching, commonly used for dictionaries.</li>
+            <li><strong>Skip List:</strong> A layered linked list that allows fast search and insertion.</li>
+            <li><strong>Segment Tree:</strong> Used for range queries and updates efficiently.</li>
+            <li><strong>Fenwick Tree:</strong> Optimized for cumulative frequency and prefix sum queries.</li>
+            <li><strong>Hash Table:</strong> Provides fast access using key-value pairs.</li>
+            <li><strong>Heaps:</strong> Used for priority queues and sorting.</li>
+            <li><strong>Union Find:</strong> Efficient for managing disjoint sets in graph algorithms.</li>
+        </ul>
+    </section>
+
+    <!-- Sorting Algorithms Section -->
+    <section>
+        <h2>Sorting Algorithms</h2>
+        <p>Sorting is essential for data organization. Here’s a comparison:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Algorithm</th>
+                    <th>Best Case</th>
+                    <th>Average Case</th>
+                    <th>Worst Case</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bubble Sort</td>
+                    <td>O(n)</td>
+                    <td>O(n²)</td>
+                    <td>O(n²)</td>
+                </tr>
+                <tr>
+                    <td>Quick Sort</td>
+                    <td>O(n log n)</td>
+                    <td>O(n log n)</td>
+                    <td>O(n²)</td>
+                </tr>
+                <tr>
+                    <td>Heap Sort</td>
+                    <td>O(n log n)</td>
+                    <td>O(n log n)</td>
+                    <td>O(n log n)</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Graph Algorithms Section -->
+    <section>
+        <h2>Graph Algorithms</h2>
+        <p>Graph algorithms are vital for network and pathfinding problems:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Algorithm</th>
+                    <th>Time Complexity</th>
+                    <th>Use Case</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>BFS</td>
+                    <td>O(V + E)</td>
+                    <td>Shortest path in unweighted graphs.</td>
+                </tr>
+                <tr>
+                    <td>DFS</td>
+                    <td>O(V + E)</td>
+                    <td>Cycle detection, connected components.</td>
+                </tr>
+                <tr>
+                    <td>Dijkstra</td>
+                    <td>O((V + E) log V)</td>
+                    <td>Shortest path in weighted graphs.</td>
+                </tr>
+                <tr>
+                    <td>Bellman-Ford</td>
+                    <td>O(VE)</td>
+                    <td>Handles negative weights.</td>
+                </tr>
+                <tr>
+                    <td>Floyd-Warshall</td>
+                    <td>O(V³)</td>
+                    <td>All-pairs shortest path.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Advanced Concepts Section -->
+    <section>
+        <h2>Advanced Concepts</h2>
+        <ul>
+            <li><strong>Lazy Propagation:</strong> Delays segment tree updates.</li>
+            <li><strong>KMP Algorithm:</strong> Efficient string searching using prefix arrays.</li>
+            <li><strong>Pruning:</strong> Reduces unnecessary computations.</li>
+            <li><strong>Edge Relaxation:</strong> Core idea in shortest path algorithms.</li>
+            <li><strong>Decomposition:</strong> Breaks problems into manageable parts.</li>
+            <li><strong>Bit Manipulations:</strong> Low-level optimization for tasks.</li>
+            <li><strong>Pattern Recognition:</strong>  Identifies recurring structures or patterns.</li>
+            <li><strong>Abstraction:</strong> Simplifies a system by focusing on essential features.</li>
+            <li><strong>Brave and Cautious Travel:</strong>  Explores deeply initially and then refines the search.</li>
+            <li><strong>Level Order Traversal: </strong> Visits nodes breadth-first in a tree.</li>
+            <li><strong>Hierarchical Data: </strong> Data organized in a tree-like structure.</li>
+            <li><strong>Balancing and Rotations: </strong> Maintains balanced heights in binary search trees.</li>
+            <li><strong>Kleene Closure:  </strong> Set of all possible strings from a set of symbols.</li>
+            <li><strong>Pre-Computing: </strong> Calculates and stores results of subproblems in advance.</li>
+            <li><strong>Parental Dominance:  </strong> Parent node decisions override child node decisions.</li>
+            <li><strong>Prefix and Suffix:  </strong> Substrings at the beginning/end of a string.</li>
+            <li><strong>Partitioning:   </strong> Divides a set into smaller subsets.</li>
+            <li><strong>Memoization:  </strong>Stores results of subproblems to avoid redundant calculations.</li>
+            <li><strong>Invariants:  </strong> Properties that remain unchanged during execution.</li> 
+            <li><strong>Shortest Path Trees:  </strong> Represent shortest paths from a source node.</li> 
+        </ul>
+    </section>
+</div>
+</body>
+</html>
