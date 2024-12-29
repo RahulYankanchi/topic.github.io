@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connected EV Charging Network</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f3f4f6;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(45deg, #4caf50, #81c784);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #4caf50;
+            border-bottom: 2px solid #81c784;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            margin: 10px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        ul li::before {
+            content: "•";
+            color: #4caf50;
+            position: absolute;
+            left: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #4caf50;
+            color: white;
+            margin-top: 30px;
+            box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        footer a:hover {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Connected Electric Vehicle Charging Network</h1>
+    </header>
+    <div class="container">
+        <h2>Case Study Overview</h2>
+        <p>This case study explores the use of graph algorithms to optimize the operation of a connected electric vehicle (EV) charging network. By representing the network as a graph, we can determine the most efficient routes and charging schedules for EVs.</p>
+
+        <h2>Graph Representation</h2>
+        <ul>
+            <li><strong>Nodes:</strong> Represent charging stations.</li>
+            <li><strong>Edges:</strong> Represent the roads or connections between stations, weighted by distance or travel time.</li>
+        </ul>
+
+        <h2>Algorithm Applied</h2>
+        <p><strong>Dijkstra's Algorithm:</strong> This algorithm is used to find the shortest path from one charging station to another, considering distance or time as weights.</p>
+        <p>Other algorithms like A* search could also be applied for better heuristic-based results, but Dijkstra's Algorithm provides reliable shortest paths for weighted graphs.</p>
+
+        <h2>Steps in Application</h2>
+        <ol>
+            <li>Define all charging stations as nodes.</li>
+            <li>Connect stations with edges weighted by distance or time.</li>
+            <li>Apply Dijkstra's Algorithm to calculate the shortest paths.</li>
+            <li>Optimize routes for EVs to minimize energy consumption and travel time.</li>
+        </ol>
+
+        <h2>Output</h2>
+        <p>The graph analysis results in optimized charging routes and minimized travel times for EVs. It enhances the efficiency of the network and provides drivers with the best routes for recharging.</p>
+    </div>
+    <footer>
+        <p>Learn more about this project on our <a href="#">GitHub repository</a>.</p>
+    </footer>
+</body>
+</html>
