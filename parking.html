@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Parking Solution with Algorithms</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f3f4f6;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(45deg, #4caf50, #81c784);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #4caf50;
+            border-bottom: 2px solid #81c784;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            margin: 10px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        ul li::before {
+            content: "•";
+            color: #4caf50;
+            position: absolute;
+            left: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #4caf50;
+            color: white;
+            margin-top: 30px;
+            box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        footer a:hover {
+            text-decoration: none;
+        }
+
+        /* Style for the link box */
+        .link-box {
+            border: 2px solid #4caf50;
+            padding: 15px;
+            margin: 20px 0;
+            background-color: #e8f5e9;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .link-box a {
+            color: #4caf50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .link-box a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Smart Parking Solution with Algorithms</h1>
+    </header>
+
+    <div class="container">
+        <h2>Case Study Overview</h2>
+        <p>This case study explores the development of a Smart Parking Solution that uses Floyd's Algorithm for optimal parking space routing and the Knuth-Morris-Pratt (KMP) algorithm for efficient pattern matching of vehicle IDs or license plates within the parking lot database.</p>
+
+        <h2>Floyd's Algorithm (Shortest Path Optimization)</h2>
+        <p>Floyd’s Algorithm is applied to calculate the shortest paths between all parking spots within a parking lot. This helps in optimizing the movement of vehicles and reducing travel time.</p>
+
+        <h3>Graph Representation:</h3>
+        <ul>
+            <li><strong>Nodes:</strong> Each parking space is represented as a node.</li>
+            <li><strong>Edges:</strong> Roads between parking spaces are represented as weighted edges (representing travel time or distance).</li>
+        </ul>
+
+        <h3>Floyd-Warshall Algorithm Application:</h3>
+        <p>This algorithm computes the shortest path between any two nodes (parking spaces), considering factors like congestion, distance, and time.</p>
+
+        <!-- Floyd's Algorithm Link Box -->
+        <div class="link-box">
+            <a href="floyd's.cpp" target="_blank">Floyd's Algorithm C++ Code</a>
+        </div>
+
+        <h2>Knuth-Morris-Pratt (KMP) Algorithm for Pattern Matching</h2>
+        <p>The KMP algorithm is applied to search for vehicle identifiers (e.g., license plates) in the parking database. This allows quick identification of parking space availability and reservation by matching specific patterns.</p>
+
+        <h3>Pattern Matching Application:</h3>
+        <p>The KMP algorithm ensures that when a vehicle enters the parking lot, we can quickly find available parking spots or check if a vehicle's parking reservation exists by matching the license plate string with the database.</p>
+
+        <!-- KMP Algorithm Link Box -->
+        <div class="link-box">
+            <a href="kmp.cpp" target="_blank">KMP Algorithm C++ Code</a>
+        </div>
+
+        <h2>Steps in Application</h2>
+        <ol>
+            <li>Deploy sensors and GPS systems to map parking spaces and create a graph representation of the parking lot.</li>
+            <li>Use Floyd’s Algorithm to compute shortest paths and optimize vehicle movement.</li>
+            <li>Develop a mobile application to allow users to search for available parking spots using the KMP algorithm to match vehicle identifiers.</li>
+            <li>Integrate both algorithms to provide efficient parking solutions and reduce congestion.</li>
+        </ol>
+
+        <h2>Output</h2>
+        <p>The combination of Floyd's Algorithm for shortest path routing and the KMP algorithm for efficient pattern matching ensures an optimal, seamless parking experience for users while also improving parking lot management efficiency.</p>
+    </div>
+
+    <footer>
+        <p>Learn more about this project on our <a href="#">GitHub repository</a>.</p>
+    </footer>
+</body>
+</html>
