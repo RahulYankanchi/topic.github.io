@@ -82,12 +82,33 @@
         footer a:hover {
             text-decoration: none;
         }
+
+        /* Style for the link box */
+        .link-box {
+            border: 2px solid #4caf50;
+            padding: 15px;
+            margin: 20px 0;
+            background-color: #e8f5e9;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .link-box a {
+            color: #4caf50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .link-box a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>Connected Electric Vehicle Charging Network</h1>
     </header>
+
     <div class="container">
         <h2>Case Study Overview</h2>
         <p>This case study explores the use of graph algorithms to optimize the operation of a connected electric vehicle (EV) charging network. By representing the network as a graph, we can determine the most efficient routes and charging schedules for EVs.</p>
@@ -112,7 +133,24 @@
 
         <h2>Output</h2>
         <p>The graph analysis results in optimized charging routes and minimized travel times for EVs. It enhances the efficiency of the network and provides drivers with the best routes for recharging.</p>
+
+        <!-- Dijkstra's Algorithm Link Box -->
+        <div class="link-box">
+            <a href="C:\Users\hp\Documents\C++ prog\dijkstra.cpp" target="_blank">View Dijkstra's Algorithm C++ Code</a>
+        </div>
+
+        <h2>Selection Sort Algorithm for Optimizing Charging Station List</h2>
+        <p>The Selection Sort algorithm can be used to sort the list of charging stations in the network based on specific parameters like distance, availability, or even priority for EV charging. For example, if you have a list of charging stations based on distance from a vehicle's current location, Selection Sort can help sort the stations efficiently.</p>
+        
+        <p>By sorting the stations based on their distance or availability, this algorithm helps in selecting the best charging station, thus optimizing the network's operation.</p>
+
+        <!-- Selection Sort Link Box -->
+        <div class="link-box">
+            <a href="C:\Users\hp\Documents\C++ prog\selection.cpp" target="_blank">View Selection Sort C++ Code</a>
+        </div>
+
     </div>
+
     <footer>
         <p>Learn more about this project on our <a href="#">GitHub repository</a>.</p>
     </footer>
